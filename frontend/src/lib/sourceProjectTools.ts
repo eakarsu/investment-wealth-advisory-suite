@@ -1,5 +1,47 @@
 export const sourceProjectTools = [
   {
+    "id": "family-office-manager-copilot",
+    "title": "Family Office Manager Copilot",
+    "category": "Family Office Manager",
+    "description": "Focused Family Office Manager AI tool elevated inside the current merged suite.",
+    "defaultPrompt": "Review the Family Office Manager context. Return a professional summary, risks, missing evidence, next actions, and audit-ready outputs.",
+    "inputLabel": "Family Office Manager context",
+    "outputLabel": "Family Office Manager AI response",
+    "signals": [
+      "Family Office Dashboard",
+      "Asset Service Calendar",
+      "Family Governance Notes"
+    ]
+  },
+  {
+    "id": "vc-deal-flow-copilot-copilot",
+    "title": "VC Deal Flow Copilot Copilot",
+    "category": "VC Deal Flow Copilot",
+    "description": "Focused VC Deal Flow Copilot AI tool elevated inside the current merged suite.",
+    "defaultPrompt": "Review the VC Deal Flow Copilot context. Return a professional summary, risks, missing evidence, next actions, and audit-ready outputs.",
+    "inputLabel": "VC Deal Flow Copilot context",
+    "outputLabel": "VC Deal Flow Copilot AI response",
+    "signals": [
+      "VC Deal Flow",
+      "Startup Screening",
+      "Investment Memo Drafts"
+    ]
+  },
+  {
+    "id": "m-a-deal-room-copilot",
+    "title": "M&A Deal Room Copilot",
+    "category": "M&A Deal Room",
+    "description": "Focused M&A Deal Room AI tool elevated inside the current merged suite.",
+    "defaultPrompt": "Review the M&A Deal Room context. Return a professional summary, risks, missing evidence, next actions, and audit-ready outputs.",
+    "inputLabel": "M&A Deal Room context",
+    "outputLabel": "M&A Deal Room AI response",
+    "signals": [
+      "Deal Room Diligence",
+      "Buyer/Seller Tracker",
+      "Deal Risk Brief"
+    ]
+  },
+  {
     "id": "ai-wealth-management-robo-advisor-source-workflow",
     "title": "AI Wealth Management Robo Advisor Source Workflow",
     "category": "Source Project Coverage",

@@ -1,11 +1,96 @@
 # Investment Wealth Advisory Suite Source Data Tables
 
-Mapped source projects: 2
+Mapped source projects: 5
 
-Detected source tables: 19
+Detected source tables: 104
 
 | Source Project | Table | Framework | Columns | Source File |
 | --- | --- | --- | ---: | --- |
+| AIFamilyOfficeManager | advisors | SQL | 10 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | ai_results | SQL | 5 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | art_collection | SQL | 11 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | attachments | SQL | 9 | backend/migrations/002_schema.sql |
+| AIFamilyOfficeManager | audit_log | SQL | 10 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | beneficiaries | SQL | 10 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | charitable_gifts | SQL | 11 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | distributions | SQL | 10 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | education_grants | SQL | 10 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | education_milestones | SQL | 11 | backend/migrations/003_schema.sql |
+| AIFamilyOfficeManager | families | SQL | 11 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | family_missions | SQL | 13 | backend/migrations/003_schema.sql |
+| AIFamilyOfficeManager | governance_docs | SQL | 10 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | holdings | SQL | 11 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | illiquid_assets | SQL | 11 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | learning_plans | SQL | 11 | backend/migrations/003_schema.sql |
+| AIFamilyOfficeManager | lp_interests | SQL | 11 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | mission_milestones | SQL | 11 | backend/migrations/003_schema.sql |
+| AIFamilyOfficeManager | notifications | SQL | 8 | backend/migrations/002_schema.sql |
+| AIFamilyOfficeManager | private_investments | SQL | 10 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | real_estate | SQL | 10 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | succession_plans | SQL | 10 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | tax_filings | SQL | 10 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | trusts | SQL | 10 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | users | SQL | 7 | backend/migrations/002_schema.sql |
+| AIFamilyOfficeManager | valuation_reports | SQL | 10 | backend/migrations/001_schema.sql |
+| AIFamilyOfficeManager | webhook_deliveries | SQL | 7 | backend/migrations/002_schema.sql |
+| AIFamilyOfficeManager | webhooks | SQL | 8 | backend/migrations/002_schema.sql |
+| AIMandADealRoom | advisors | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | ai_results | SQL | 5 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | ai_results | SQL | 5 | backend/migrations/003_schema.sql |
+| AIMandADealRoom | attachments | SQL | 9 | backend/migrations/002_schema.sql |
+| AIMandADealRoom | audit_log | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | closing_checklist | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | comps | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | deals | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | due_diligence_items | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | escrow_terms | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | financial_models | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | integration_plans | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | lois | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | notifications | SQL | 8 | backend/migrations/002_schema.sql |
+| AIMandADealRoom | post_close_reports | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | q_and_a | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | regulatory_filings | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | targets | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | term_sheets | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | users | SQL | 7 | backend/migrations/002_schema.sql |
+| AIMandADealRoom | vdr_doc_permissions | SQL | 11 | backend/migrations/003_schema.sql |
+| AIMandADealRoom | vdr_doc_views | SQL | 10 | backend/migrations/003_schema.sql |
+| AIMandADealRoom | vdr_documents | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | vdr_watermarks | SQL | 7 | backend/migrations/003_schema.sql |
+| AIMandADealRoom | webhook_deliveries | SQL | 7 | backend/migrations/002_schema.sql |
+| AIMandADealRoom | webhooks | SQL | 8 | backend/migrations/002_schema.sql |
+| AIMandADealRoom | working_capital_adjustments | SQL | 9 | backend/migrations/001_schema.sql |
+| AIMandADealRoom | working_groups | SQL | 9 | backend/migrations/001_schema.sql |
+| AIVCDealFlowCopilot | advisors | SQL | 9 | backend/migrations/002_schema.sql |
+| AIVCDealFlowCopilot | ai_results | SQL | 5 | backend/migrations/001_schema.sql |
+| AIVCDealFlowCopilot | ai_results | SQL | 5 | backend/migrations/003_schema.sql |
+| AIVCDealFlowCopilot | attachments | SQL | 9 | backend/migrations/002_schema.sql |
+| AIVCDealFlowCopilot | audit_log | SQL | 9 | backend/migrations/002_schema.sql |
+| AIVCDealFlowCopilot | board_meetings | SQL | 9 | backend/migrations/002_schema.sql |
+| AIVCDealFlowCopilot | cap_tables | SQL | 15 | backend/migrations/003_schema.sql |
+| AIVCDealFlowCopilot | capital_calls | SQL | 9 | backend/migrations/002_schema.sql |
+| AIVCDealFlowCopilot | companies | SQL | 10 | backend/migrations/001_schema.sql |
+| AIVCDealFlowCopilot | deals | SQL | 10 | backend/migrations/001_schema.sql |
+| AIVCDealFlowCopilot | distributions | SQL | 9 | backend/migrations/002_schema.sql |
+| AIVCDealFlowCopilot | exits | SQL | 9 | backend/migrations/002_schema.sql |
+| AIVCDealFlowCopilot | follow_ons | SQL | 10 | backend/migrations/001_schema.sql |
+| AIVCDealFlowCopilot | founders | SQL | 10 | backend/migrations/001_schema.sql |
+| AIVCDealFlowCopilot | funds | SQL | 10 | backend/migrations/001_schema.sql |
+| AIVCDealFlowCopilot | ic_memos | SQL | 10 | backend/migrations/001_schema.sql |
+| AIVCDealFlowCopilot | intros | SQL | 9 | backend/migrations/002_schema.sql |
+| AIVCDealFlowCopilot | investments | SQL | 10 | backend/migrations/001_schema.sql |
+| AIVCDealFlowCopilot | kpi_ingest_records | SQL | 13 | backend/migrations/003_schema.sql |
+| AIVCDealFlowCopilot | kpi_ingest_sources | SQL | 12 | backend/migrations/003_schema.sql |
+| AIVCDealFlowCopilot | lp_comms_templates | SQL | 11 | backend/migrations/003_schema.sql |
+| AIVCDealFlowCopilot | lp_reports | SQL | 10 | backend/migrations/001_schema.sql |
+| AIVCDealFlowCopilot | notifications | SQL | 8 | backend/migrations/002_schema.sql |
+| AIVCDealFlowCopilot | pipeline_notes | SQL | 9 | backend/migrations/002_schema.sql |
+| AIVCDealFlowCopilot | portfolio_metrics | SQL | 10 | backend/migrations/001_schema.sql |
+| AIVCDealFlowCopilot | term_sheets | SQL | 9 | backend/migrations/002_schema.sql |
+| AIVCDealFlowCopilot | users | SQL | 7 | backend/migrations/002_schema.sql |
+| AIVCDealFlowCopilot | webhook_deliveries | SQL | 7 | backend/migrations/002_schema.sql |
+| AIVCDealFlowCopilot | webhooks | SQL | 8 | backend/migrations/002_schema.sql |
 | AIWealthManagementRoboAdvisor | ai_results | SQL | 8 | server/routes/ai.js |
 | AIWealthManagementRoboAdvisor | alerts | SQL | 9 | server/seeds/seed.js |
 | AIWealthManagementRoboAdvisor | asset_classes | SQL | 6 | server/seeds/seed.js |

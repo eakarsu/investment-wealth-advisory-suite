@@ -10,6 +10,117 @@ export type SourceAIToolField = {
 };
 
 export const sourceAIToolFieldsByToolId: Record<string, SourceAIToolField[]> = {
+  "family-office-manager-copilot": [
+    {
+      "name": "objective",
+      "label": "Objective",
+      "type": "textarea",
+      "defaultValue": "Improve the Family Office Manager workflow and produce audit-ready next actions.",
+      "placeholder": "Describe the goal",
+      "options": [],
+      "required": true,
+      "source": "AIFamilyOfficeManager"
+    },
+    {
+      "name": "source_context",
+      "label": "Source Context",
+      "type": "textarea",
+      "defaultValue": "Paste Family Office Manager source details, notes, records, or documents.",
+      "placeholder": "Paste source context",
+      "options": [],
+      "required": true,
+      "source": "AIFamilyOfficeManager"
+    },
+    {
+      "name": "output_format",
+      "label": "Output Format",
+      "type": "select",
+      "defaultValue": "Action plan",
+      "placeholder": "Select output format",
+      "options": [
+        "Action plan",
+        "Executive summary",
+        "Evidence table",
+        "Checklist"
+      ],
+      "required": true,
+      "source": "AIFamilyOfficeManager"
+    }
+  ],
+  "vc-deal-flow-copilot-copilot": [
+    {
+      "name": "objective",
+      "label": "Objective",
+      "type": "textarea",
+      "defaultValue": "Improve the VC Deal Flow Copilot workflow and produce audit-ready next actions.",
+      "placeholder": "Describe the goal",
+      "options": [],
+      "required": true,
+      "source": "AIVCDealFlowCopilot"
+    },
+    {
+      "name": "source_context",
+      "label": "Source Context",
+      "type": "textarea",
+      "defaultValue": "Paste VC Deal Flow Copilot source details, notes, records, or documents.",
+      "placeholder": "Paste source context",
+      "options": [],
+      "required": true,
+      "source": "AIVCDealFlowCopilot"
+    },
+    {
+      "name": "output_format",
+      "label": "Output Format",
+      "type": "select",
+      "defaultValue": "Action plan",
+      "placeholder": "Select output format",
+      "options": [
+        "Action plan",
+        "Executive summary",
+        "Evidence table",
+        "Checklist"
+      ],
+      "required": true,
+      "source": "AIVCDealFlowCopilot"
+    }
+  ],
+  "m-a-deal-room-copilot": [
+    {
+      "name": "objective",
+      "label": "Objective",
+      "type": "textarea",
+      "defaultValue": "Improve the M&A Deal Room workflow and produce audit-ready next actions.",
+      "placeholder": "Describe the goal",
+      "options": [],
+      "required": true,
+      "source": "AIMandADealRoom"
+    },
+    {
+      "name": "source_context",
+      "label": "Source Context",
+      "type": "textarea",
+      "defaultValue": "Paste M&A Deal Room source details, notes, records, or documents.",
+      "placeholder": "Paste source context",
+      "options": [],
+      "required": true,
+      "source": "AIMandADealRoom"
+    },
+    {
+      "name": "output_format",
+      "label": "Output Format",
+      "type": "select",
+      "defaultValue": "Action plan",
+      "placeholder": "Select output format",
+      "options": [
+        "Action plan",
+        "Executive summary",
+        "Evidence table",
+        "Checklist"
+      ],
+      "required": true,
+      "source": "AIMandADealRoom"
+    }
+  ],
   "ai-wealth-management-robo-advisor-ai-j615h1-exact-ai": [
     {
       "name": "age",

@@ -7,6 +7,15 @@ Primary routes:
 - `/profiles`
 
 Feature routes:
+- `/family-governance-notes`
+- `/asset-service-calendar`
+- `/family-office-dashboard`
+- `/investment-memo-drafts`
+- `/startup-screening`
+- `/vc-deal-flow`
+- `/deal-risk-brief`
+- `/buyer-seller-tracker`
+- `/deal-room-diligence`
 - `/portfolios`
 - `/clients`
 - `/plans`
